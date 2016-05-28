@@ -1,7 +1,7 @@
 FROM debian:8
 MAINTAINER Frank Rosquin <frank.rosquin@gmail.com>
 
-ENV VERSION 0.9.2
+ENV VERSION 0.10.0
 
 RUN apt-get update &&\
         apt-get -y -q install wget &&\
